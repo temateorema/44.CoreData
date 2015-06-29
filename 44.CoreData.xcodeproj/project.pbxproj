@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44C7183F1B41B1BE00E5ACE2 /* AGChooseCourseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C7183E1B41B1BE00E5ACE2 /* AGChooseCourseViewController.m */; };
+		44C7AC631B41F23D001C74EF /* AGStudents.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C7AC621B41F23D001C74EF /* AGStudents.m */; };
+		44C7AC661B41F23D001C74EF /* AGCourses.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C7AC651B41F23D001C74EF /* AGCourses.m */; };
+		44CA790B1B414ABD00D03AC2 /* AGCoursesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CA790A1B414ABD00D03AC2 /* AGCoursesViewController.m */; };
+		44CA790E1B414D0900D03AC2 /* AGAddCourseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CA790D1B414D0900D03AC2 /* AGAddCourseTableViewController.m */; };
+		44CAC5AA1B4014320004F95C /* AGAddStudentTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CAC5A91B4014320004F95C /* AGAddStudentTableViewController.m */; };
 		44CFE3701B3B23D300D4A01A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CFE36F1B3B23D300D4A01A /* main.m */; };
 		44CFE3731B3B23D300D4A01A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CFE3721B3B23D300D4A01A /* AppDelegate.m */; };
 		44CFE3761B3B23D300D4A01A /* _4_CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 44CFE3741B3B23D300D4A01A /* _4_CoreData.xcdatamodeld */; };
-		44CFE3791B3B23D300D4A01A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CFE3781B3B23D300D4A01A /* ViewController.m */; };
 		44CFE37C1B3B23D300D4A01A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44CFE37A1B3B23D300D4A01A /* Main.storyboard */; };
 		44CFE37E1B3B23D300D4A01A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44CFE37D1B3B23D300D4A01A /* Images.xcassets */; };
 		44CFE3811B3B23D300D4A01A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44CFE37F1B3B23D300D4A01A /* LaunchScreen.xib */; };
 		44CFE38D1B3B23D300D4A01A /* _4_CoreDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CFE38C1B3B23D300D4A01A /* _4_CoreDataTests.m */; };
+		44CFE3981B3B377E00D4A01A /* AGStudentsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CFE3971B3B377E00D4A01A /* AGStudentsTableViewController.m */; };
+		44CFE39B1B3B37C600D4A01A /* AGDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CFE39A1B3B37C600D4A01A /* AGDataManager.m */; };
+		44CFE39E1B3B529200D4A01A /* AGTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CFE39D1B3B529200D4A01A /* AGTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,20 +36,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		44C7183D1B41B1BE00E5ACE2 /* AGChooseCourseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGChooseCourseViewController.h; sourceTree = "<group>"; };
+		44C7183E1B41B1BE00E5ACE2 /* AGChooseCourseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGChooseCourseViewController.m; sourceTree = "<group>"; };
+		44C7AC611B41F23D001C74EF /* AGStudents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGStudents.h; sourceTree = "<group>"; };
+		44C7AC621B41F23D001C74EF /* AGStudents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGStudents.m; sourceTree = "<group>"; };
+		44C7AC641B41F23D001C74EF /* AGCourses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGCourses.h; sourceTree = "<group>"; };
+		44C7AC651B41F23D001C74EF /* AGCourses.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGCourses.m; sourceTree = "<group>"; };
+		44CA79091B414ABD00D03AC2 /* AGCoursesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGCoursesViewController.h; sourceTree = "<group>"; };
+		44CA790A1B414ABD00D03AC2 /* AGCoursesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGCoursesViewController.m; sourceTree = "<group>"; };
+		44CA790C1B414D0900D03AC2 /* AGAddCourseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGAddCourseTableViewController.h; sourceTree = "<group>"; };
+		44CA790D1B414D0900D03AC2 /* AGAddCourseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGAddCourseTableViewController.m; sourceTree = "<group>"; };
+		44CAC5A81B4014320004F95C /* AGAddStudentTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGAddStudentTableViewController.h; sourceTree = "<group>"; };
+		44CAC5A91B4014320004F95C /* AGAddStudentTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGAddStudentTableViewController.m; sourceTree = "<group>"; };
 		44CFE36A1B3B23D300D4A01A /* 44.CoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 44.CoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44CFE36E1B3B23D300D4A01A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44CFE36F1B3B23D300D4A01A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		44CFE3711B3B23D300D4A01A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		44CFE3721B3B23D300D4A01A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		44CFE3751B3B23D300D4A01A /* _4_CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = _4_CoreData.xcdatamodel; sourceTree = "<group>"; };
-		44CFE3771B3B23D300D4A01A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		44CFE3781B3B23D300D4A01A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		44CFE37B1B3B23D300D4A01A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		44CFE37D1B3B23D300D4A01A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		44CFE3801B3B23D300D4A01A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		44CFE3861B3B23D300D4A01A /* 44.CoreDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 44.CoreDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44CFE38B1B3B23D300D4A01A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44CFE38C1B3B23D300D4A01A /* _4_CoreDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _4_CoreDataTests.m; sourceTree = "<group>"; };
+		44CFE3961B3B377E00D4A01A /* AGStudentsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGStudentsTableViewController.h; sourceTree = "<group>"; };
+		44CFE3971B3B377E00D4A01A /* AGStudentsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGStudentsTableViewController.m; sourceTree = "<group>"; };
+		44CFE3991B3B37C600D4A01A /* AGDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGDataManager.h; sourceTree = "<group>"; };
+		44CFE39A1B3B37C600D4A01A /* AGDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGDataManager.m; sourceTree = "<group>"; };
+		44CFE39C1B3B529200D4A01A /* AGTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTableViewController.h; sourceTree = "<group>"; };
+		44CFE39D1B3B529200D4A01A /* AGTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +86,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44C86E461B3C9A34003AA237 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				44C7AC611B41F23D001C74EF /* AGStudents.h */,
+				44C7AC621B41F23D001C74EF /* AGStudents.m */,
+				44C7AC641B41F23D001C74EF /* AGCourses.h */,
+				44C7AC651B41F23D001C74EF /* AGCourses.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		44CAC5AB1B4014490004F95C /* AddControllers */ = {
+			isa = PBXGroup;
+			children = (
+				44CA790C1B414D0900D03AC2 /* AGAddCourseTableViewController.h */,
+				44CA790D1B414D0900D03AC2 /* AGAddCourseTableViewController.m */,
+				44CAC5A81B4014320004F95C /* AGAddStudentTableViewController.h */,
+				44CAC5A91B4014320004F95C /* AGAddStudentTableViewController.m */,
+				44C7183D1B41B1BE00E5ACE2 /* AGChooseCourseViewController.h */,
+				44C7183E1B41B1BE00E5ACE2 /* AGChooseCourseViewController.m */,
+			);
+			name = AddControllers;
+			sourceTree = "<group>";
+		};
 		44CFE3611B3B23D300D4A01A = {
 			isa = PBXGroup;
 			children = (
@@ -85,8 +133,16 @@
 			children = (
 				44CFE3711B3B23D300D4A01A /* AppDelegate.h */,
 				44CFE3721B3B23D300D4A01A /* AppDelegate.m */,
-				44CFE3771B3B23D300D4A01A /* ViewController.h */,
-				44CFE3781B3B23D300D4A01A /* ViewController.m */,
+				44CAC5AB1B4014490004F95C /* AddControllers */,
+				44C86E461B3C9A34003AA237 /* Models */,
+				44CFE3961B3B377E00D4A01A /* AGStudentsTableViewController.h */,
+				44CFE3971B3B377E00D4A01A /* AGStudentsTableViewController.m */,
+				44CA79091B414ABD00D03AC2 /* AGCoursesViewController.h */,
+				44CA790A1B414ABD00D03AC2 /* AGCoursesViewController.m */,
+				44CFE39C1B3B529200D4A01A /* AGTableViewController.h */,
+				44CFE39D1B3B529200D4A01A /* AGTableViewController.m */,
+				44CFE3991B3B37C600D4A01A /* AGDataManager.h */,
+				44CFE39A1B3B37C600D4A01A /* AGDataManager.m */,
 				44CFE37A1B3B23D300D4A01A /* Main.storyboard */,
 				44CFE37D1B3B23D300D4A01A /* Images.xcassets */,
 				44CFE37F1B3B23D300D4A01A /* LaunchScreen.xib */,
@@ -222,10 +278,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44CFE39E1B3B529200D4A01A /* AGTableViewController.m in Sources */,
+				44C7AC631B41F23D001C74EF /* AGStudents.m in Sources */,
+				44CAC5AA1B4014320004F95C /* AGAddStudentTableViewController.m in Sources */,
 				44CFE3761B3B23D300D4A01A /* _4_CoreData.xcdatamodeld in Sources */,
 				44CFE3731B3B23D300D4A01A /* AppDelegate.m in Sources */,
-				44CFE3791B3B23D300D4A01A /* ViewController.m in Sources */,
+				44CFE3981B3B377E00D4A01A /* AGStudentsTableViewController.m in Sources */,
+				44C7183F1B41B1BE00E5ACE2 /* AGChooseCourseViewController.m in Sources */,
 				44CFE3701B3B23D300D4A01A /* main.m in Sources */,
+				44CFE39B1B3B37C600D4A01A /* AGDataManager.m in Sources */,
+				44CA790B1B414ABD00D03AC2 /* AGCoursesViewController.m in Sources */,
+				44C7AC661B41F23D001C74EF /* AGCourses.m in Sources */,
+				44CA790E1B414D0900D03AC2 /* AGAddCourseTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +484,7 @@
 				44CFE3921B3B23D300D4A01A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		44CFE3931B3B23D300D4A01A /* Build configuration list for PBXNativeTarget "44.CoreDataTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +493,7 @@
 				44CFE3951B3B23D300D4A01A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
